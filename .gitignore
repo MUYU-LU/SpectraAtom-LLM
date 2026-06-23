@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments
+.env
+.venv/
+venv/
+conda/
+
+# Large local artifacts
+data/
+runs/
+checkpoints/
+models/
+offload/
+kernel_meta/
+logs/
+eval_reports/
+generation_samples/
+
+# Model/data files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.jsonl
+*.parquet
+*.csv
+*.tar
+*.tar.gz
+*.zip
+
+# Editor/system files
+.DS_Store
+*.swp
+*.swo
